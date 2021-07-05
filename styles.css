@@ -1,6 +1,6 @@
 .colorstrip{
     width: 100%; height: 2px;
     border-style: solid;
-    border-color: white;
-    background-color: white;
+    border-color: blueviolet;
+    background-color: blue;
 }
