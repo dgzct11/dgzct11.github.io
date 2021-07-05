@@ -1,6 +1,84 @@
 .colorstrip{
-    width: 100%; height: 200px;
-    border-style: solid;
-    border-color: blueviolet;
+    width: 100%; 
+    border-style: none;
+    padding: 20vmax 0vmax;
     background-color: blue;
+    background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+.paragraph {
+    font-size: 20px;
+    padding-right: 20vmax;
+    color: black;
+    line-height: 25px;
+}
+.bodystrip{
+    text-align: left;
+    padding: 100px 10vmax;
+    
+}
+h1.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    top:0;
+    width: 100%;
+    padding-left: 20px;
+    padding-top:1px;
+    padding-bottom: 5px;
+    
+    background: rgb(0, 0, 0);
+    
+  }
+
+
+.page-links{
+   
+    float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 2%;
+  text-decoration: none;
+  font-size: 17px;
+}
+.logo{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+   padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.button{
+    background-color: transparent;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    font-size: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+  }  
