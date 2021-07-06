@@ -1,13 +1,29 @@
 .colorstrip{
-    width: 100%; 
-    border-style: none;
-    padding: 20vmax 0vmax;
-    background-color: blue;
+    
+    color: gainsboro;
+    text-align: left;
+    
+    padding-top: 15vmax;
+    padding-bottom: 20vmax;
+    padding-left: 5vmax;
+    
     background-image: url(https://www.acco.org/wp-content/themes/acco-new/img/bg-slider.png);
     background-attachment: fixed;
     background-size: cover;
 }
+.box {
+    border-style: solid;
+    margin-left: 5px;
+    padding: 5vmax;
+}
+#container {
+    display: flex;
+    flex: wrap;
 
+}
+#container > div{
+    width: 400px;
+}
 .paragraph {
     font-size: 20px;
     padding-right: 20vmax;
@@ -23,7 +39,7 @@ h1.blocktext {
     margin-left: auto;
     margin-right: auto;
 }
-.navbar {
+.navbarm {
     overflow: hidden;
     position: fixed;
     float: left;
@@ -38,7 +54,7 @@ h1.blocktext {
   }
 
 
-.page-links{
+.page-linkss{
    
     float: right;
   display: block;
@@ -57,7 +73,7 @@ h1.blocktext {
     text-decoration: none;
     font-size: 17px;
 }
-.navbar a:hover {
+.navbarm a:hover {
     background: #ddd;
     color: black;
   }
@@ -66,6 +82,7 @@ h1.blocktext {
     font-size: 2vmax;
     padding: 1vmax 2vmax;
     border: 2px solid white;
+    color: gainsboro;
     
 }
 .button:hover{
@@ -81,4 +98,5 @@ h1.blocktext {
     padding: 0;
     overflow-x: hidden;
     text-align: center;
+    
   }  
